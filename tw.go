@@ -2,11 +2,11 @@ package main
 
 import (
     "os"
-    "./tw_cli"
+    "./tw_cli/parser"
 )
 
 
 func main()  {
    args := os.Args[1:]
-   tw_cli.Parse(args)
+   parser.Parse(args)
 }

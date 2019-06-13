@@ -1,4 +1,4 @@
-package tw_cli
+package error
 
 import (
 )
